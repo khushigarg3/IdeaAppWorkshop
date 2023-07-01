@@ -1,4 +1,4 @@
 module.exports = {
-    PORT : 3353
+    PORT : 7000
 }
 
