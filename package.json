@@ -9,6 +9,7 @@
   "author": "khushi garg",
   "license": "ISC",
   "dependencies": {
-    "express.js": "^1.0.0"
+    "express.js": "^1.0.0",
+    "mongoose": "^7.3.1"
   }
 }
