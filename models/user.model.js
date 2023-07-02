@@ -21,6 +21,13 @@ const userSchema = new mongoose.Schema({
         type: String,
         required: true,
         unique: true,
+        minLength: 10,
         lowercase: true
+    },
+    userType: {
+        type: String,
+        required: true,
+        default: "CUSTOMER",
+        enum: ["CUSTOMER","ADMIN"]
     }
 });
